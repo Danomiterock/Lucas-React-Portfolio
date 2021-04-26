@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "image": "./src/assets/image/sushi.jpg",
+      "alt": "sushi",
+      "title": "Calendar Application",
+      "body": "A simple day planner to make sure that there is always time for lunch!",
+      "link": "https://danomiterock.github.io/Calendar-Application/"
+    },
+    {
+        "id": 2,
+        "image": "./src/assets/image/guitar.jpg",
+        "alt": "Dan playing guitar",
+        "title": "JavaScript Quiz",
+        "body": "Test your knowledge with a short JavaScript Quiz leaving plenty of time left for your hobbies!",
+        "link": "https://danomiterock.github.io/JavaScript-Quiz/"
+      },
+      {
+        "id": 3,
+        "image": "./src/assets/image/cooking.jpg",
+        "alt": "cooking outdoors",
+        "title": "Weather API",
+        "body": "Before you start the grill, check the weather!",
+        "link": "https://danomiterock.github.io/Weather-API/"
+      },
+      {
+        "id": 4,
+        "image": "./src/assets/image/gaming.jpg",
+        "alt": "video gaming",
+        "title": "SpongeBob",
+        "body": "Fry Cook",
+        "link": "A Pineapple Under the Sea"
+      },
+      {
+        "id": 5,
+        "image": "",
+        "alt": "",
+        "title": "README Generator",
+        "body": "Enhance your development appearance with a professional README generator",
+        "link": "https://github.com/Danomiterock/Professional-README-Generator"
+      },
+      {
+        "id": 6,
+        "image": "./src/assets/image/cashregister.jpg",
+        "alt": "Cash register and money",
+        "title": "E Commerce Back End",
+        "body": "Take your sales online with this E-Commerce Back End.",
+        "link": "https://github.com/Danomiterock/ORM-E-Commerce-Back-End/"
+      },
+      {
+        "id": 7,
+        "image": "./src/assets/image/notetaker.jpg",
+        "alt": "note taker",
+        "title": "Note Taker",
+        "body": "Clean the sticky notes off your desk with this online notetaker.",
+        "link": "https://github.com/Danomiterock/Note-Taker"
+      },
+      {
+        "id": 8,
+        "image": "./src/assets/image/concert.jpg",
+        "title": "Build a Band",
+        "alt": "Concert Lights",
+        "body": "Find other musicians and bands with Build a Band",
+        "link": "https://github.com/Danomiterock/Build-a-Band/"
+      }
+
+  ]
+  
