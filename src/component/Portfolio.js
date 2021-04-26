@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, Col, Container, Row } from "react-bootstrap"
 import PropTypes from "prop-types";
 const styles = {
     card: {width: "18rem" }
