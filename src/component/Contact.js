@@ -9,14 +9,24 @@ const styles = {
     borderShadow: "5px",
     textAlign: "center",
   },
-  wrapper: { background: "#333333", color: "#CCCCCC", height: "100%", width: "100%"  },
+  wrapper: {
+    background: "#333333",
+    color: "#CCCCCC",
+    height: "100%",
+    width: "100%",
+  },
+  cardDeck: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+  },
 };
 
 const Contact = (props) => {
   return (
     <div style={styles.wrapper}>
       <Container fluid>
-        <Row>
+        <Row style={styles.cardDeck}>
           {data.map((contacts) => (
             <Col xs={1} md={2} lg={3}>
               <Card
