@@ -6,17 +6,18 @@
       "link": "https://www.linkedin.com/in/danomiterock/"
     },
     {
-        "id": 2,
+      "id": 2,
+      "image": "gmail.png",
+      "alt": "cooking outdoors",
+      "link": "mailto:danomiterock@gmail.com"
+    },
+    {
+        "id": 3,
         "image": "GitHub-Mark.png",
         "alt": "GitHub Logo",
         "link": "https://github.com/Danomiterock"
-      },
-      {
-        "id": 3,
-        "image": "gmail.png",
-        "alt": "cooking outdoors",
-        "link": "mailto:danomiterock@gmail.com"
       }
+
 ]
      
   
