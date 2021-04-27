@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "./src/assets/image/sushi.jpg",
+      "image": "sushi.jpg",
       "alt": "sushi",
       "title": "Calendar Application",
       "body": "A simple day planner to make sure that there is always time for lunch!",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "./src/assets/image/guitar.jpg",
+        "image": "guitar.jpg",
         "alt": "Dan playing guitar",
         "title": "JavaScript Quiz",
         "body": "Test your knowledge with a short JavaScript Quiz leaving plenty of time left for your hobbies!",
@@ -17,7 +17,7 @@
       },
       {
         "id": 3,
-        "image": "./src/assets/image/cooking.jpg",
+        "image": "cooking.jpg",
         "alt": "cooking outdoors",
         "title": "Weather API",
         "body": "Before you start the grill, check the weather!",
@@ -25,23 +25,23 @@
       },
       {
         "id": 4,
-        "image": "./src/assets/image/gaming.jpg",
+        "image": "gaming.jpg",
         "alt": "video gaming",
-        "title": "SpongeBob",
-        "body": "Fry Cook",
-        "link": "A Pineapple Under the Sea"
+        "title": "Password Generator",
+        "body": "Make sure all of your online activities are secure by using this password generator!",
+        "link": "https://danomiterock.github.io/Password-Generator/"
       },
       {
         "id": 5,
-        "image": "",
-        "alt": "",
+        "image": "programmer.jpg",
+        "alt": "computer programmer",
         "title": "README Generator",
         "body": "Enhance your development appearance with a professional README generator",
         "link": "https://github.com/Danomiterock/Professional-README-Generator"
       },
       {
         "id": 6,
-        "image": "./src/assets/image/cashregister.jpg",
+        "image": "cashregister.jpg",
         "alt": "Cash register and money",
         "title": "E Commerce Back End",
         "body": "Take your sales online with this E-Commerce Back End.",
@@ -49,7 +49,7 @@
       },
       {
         "id": 7,
-        "image": "./src/assets/image/notetaker.jpg",
+        "image": "notetaker.jpg",
         "alt": "note taker",
         "title": "Note Taker",
         "body": "Clean the sticky notes off your desk with this online notetaker.",
@@ -57,7 +57,7 @@
       },
       {
         "id": 8,
-        "image": "./src/assets/image/concert.jpg",
+        "image": "concert.jpg",
         "title": "Build a Band",
         "alt": "Concert Lights",
         "body": "Find other musicians and bands with Build a Band",

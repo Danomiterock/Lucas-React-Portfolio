@@ -2,7 +2,8 @@ import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import data from "../projects.json"
 const styles = {
-    card: {width: "18rem" }
+    card: {width: "18rem", padding: "20px"},
+    wrapper: { background: "#333333", color: "#CCCCCC" },
 };
 
 const RenderPortfolio = (props) => {
@@ -10,11 +11,11 @@ const RenderPortfolio = (props) => {
     <Container fluid>
       <Row>
         <Col mb={4}>
-          <div>
+          <div style={styles.wrapper}>
             {data.map(portfolio => 
              (
-            <Card style={styles.card}>
-              <Card.Img variant="top" src={portfolio.image} alt={portfolio.alt}/>
+            <Card style={styles.card} key={portfolio.id}>
+              <Card.Img variant="top" src={`assets/image/${portfolio.image}`} alt={portfolio.alt}/>
               <Card.Body>
                 <Card.Title>{portfolio.title}</Card.Title>
                 <Card.Text>

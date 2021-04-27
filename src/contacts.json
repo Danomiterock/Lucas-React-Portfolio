@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "image": "linkedin.png",
+      "alt": "LinkedIn logo",
+      "link": "https://www.linkedin.com/in/danomiterock/"
+    },
+    {
+        "id": 2,
+        "image": "GitHub-Mark.png",
+        "alt": "GitHub Logo",
+        "link": "https://github.com/Danomiterock"
+      },
+      {
+        "id": 3,
+        "image": "gmail.png",
+        "alt": "cooking outdoors",
+        "link": "mailto:danomiterock@gmail.com"
+      }
+]
+     
+  

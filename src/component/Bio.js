@@ -48,7 +48,7 @@ const Bio = () => {
             </p>
           </Col>
           <Col mb={4}>
-            <img style={styles.portrait} src={imageURL} />
+            <img style={styles.portrait} src={imageURL} alt="Dan Lucas Portrait" />
           </Col>
           <Col mb={4}>
             <h2>Full Stack Developer</h2>
