@@ -1,18 +1,10 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import data from "../projects.json"
+import data from "../contacts.json"
 const styles = {
     card: {width: "18rem", padding: "20px"},
     wrapper: { background: "#333333", color: "#CCCCCC" },
 };
-
-
-const Contact = (props) => {
-  return <div></div>;
-};
-
-export default Contact;
-import React from "react";
 
 const Contact = () => {
   return (
@@ -20,16 +12,12 @@ const Contact = () => {
       <Row>
         <Col mb={4}>
           <div style={styles.wrapper}>
-            {data.map(portfolio => 
+            {data.map(contacts => 
              (
-            <Card style={styles.card} key={portfolio.id}>
-              <Card.Img variant="top" src={`assets/image/${portfolio.image}`} alt={portfolio.alt}/>
+            <Card style={styles.card} key={contacts.id}>
+              <Card.Img variant="top" src={`assets/image/${contacts.image}`} alt={contacts.alt}/>
               <Card.Body>
-                <Card.Title>{portfolio.title}</Card.Title>
-                <Card.Text>
-                  {portfolio.body}
-                </Card.Text>
-                <a href={portfolio.link}>Click Here!</a>
+                 <a href={contacts.link}>Click Here!</a>
               </Card.Body>
             </Card>
             ))}
