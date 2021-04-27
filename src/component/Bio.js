@@ -3,7 +3,7 @@ import imageURL from "../assets/image/Portrait.jpg";
 const styles = {
   wrapper: { background: "#333333", color: "#CCCCCC" },
   hr: { width: "40px", height: "2px", color: "orange" },
-  portrait: { width: "400px", height: "auto" },
+  portrait: { width: "400px", height: "auto", borderRadius: "10%", borderShadow: "10px"},
 };
 const Bio = () => {
   return (
