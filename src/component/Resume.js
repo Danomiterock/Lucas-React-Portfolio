@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import data from "../contacts.json";
 const styles = {
   card: {
     width: "18rem",
