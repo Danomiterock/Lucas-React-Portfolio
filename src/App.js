@@ -8,6 +8,7 @@ import Bio from "./component/Bio";
 import Header from "./component/Navbar";
 import Contact from "./component/Contact";
 import Portfolio from "./component/Portfolio";
+import Resume from "./component/Resume";
 
 export default function App() {
   return (
@@ -29,6 +30,9 @@ export default function App() {
           </Route>
           <Route path="/portfolio">
             <Portfolio/>
+          </Route>
+          <Route path="/resume">
+            <Resume/>
           </Route>
         </Switch>
       </div>
