@@ -13,7 +13,23 @@ const Bio = () => {
           <Col mb={4}>
             <h1>Dan Lucas</h1>
             <hr />
-            <p>
+           
+          </Col>
+          <Col mb={4}>
+            <img style={styles.portrait} src={imageURL} alt="Dan Lucas Portrait" />
+          </Col>
+          <Col mb={4}>
+            <h2>Full Stack Developer</h2>
+            <hr />
+            {/* <p>
+              {""}
+              Mr. Lucas is a certified MERN developer with skill sets including HTML, CSS, Bootstrap, Wordpress, jQuery, JavaScript, Handlebars, and more...
+            </p> */}
+          </Col>
+        </Row>
+        <div>
+          <h2>Bio</h2>
+          <p>
               {" "}
               Daniel Lucas is a former Tucson Police officer, who specializes in
               many forms of communication. With over seven years in patrol based
@@ -46,19 +62,7 @@ const Bio = () => {
               in Organizational Leadership and Management from Regent
               University.
             </p>
-          </Col>
-          <Col mb={4}>
-            <img style={styles.portrait} src={imageURL} alt="Dan Lucas Portrait" />
-          </Col>
-          <Col mb={4}>
-            <h2>Full Stack Developer</h2>
-            <hr />
-            <p>
-              {""}
-              Mr. Lucas is a certified MERN developer with skill sets including HTML, CSS, Bootstrap, Wordpress, jQuery, JavaScript, Handlebars, and more...
-            </p>
-          </Col>
-        </Row>
+        </div>
       </Container>
     </div>
   );
