@@ -76,4 +76,4 @@ https://danomiterock.netlify.app/
 
 ### Screenshot
 
-![](screenshot.jpg)
+![](./public/assets/image/screenshot.jpg)
