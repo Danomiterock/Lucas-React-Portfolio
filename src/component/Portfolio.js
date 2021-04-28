@@ -14,13 +14,18 @@ const styles = {
     height: "100%",
     width: "100%",
   },
+  cardDeck: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+  },
 };
 
 const Portfolio = (props) => {
   return (
     <div style={styles.wrapper}>
-      <Container>
-        <Row>
+      <Container fluid>
+        <Row style={styles.cardDeck}>
           {data.map((portfolio) => (
             <Col xs={1} md={3} lg={4}>
               <Card
