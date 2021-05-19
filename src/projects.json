@@ -62,7 +62,16 @@
         "alt": "Concert Lights",
         "body": "Find other musicians and bands with Build a Band",
         "link": "https://github.com/Danomiterock/Build-a-Band/"
+      },
+      {
+        "id": 9,
+        "image": "naturelake.jpg",
+        "title": "Campaholic",
+        "alt": "Mountains and Lake",
+        "body": "Find and plan your next wilderness adventure!",
+        "link": "https://danomiterock.netlify.app/"
       }
+
 
   ]
   
